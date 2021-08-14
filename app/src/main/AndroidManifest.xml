@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/yon_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Yozii">
-        <activity android:name=".textChoice"></activity>
+        <activity
+            android:name=".celebrate"
+            android:label="@string/title_activity_celebrate"
+            android:theme="@style/Theme.Yozii.NoActionBar"></activity>
+        <activity android:name=".textChoice" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
